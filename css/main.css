@@ -1,0 +1,289 @@
+/*font-family: 'Caladea', serif; general font*/
+/*font-family: 'Vollkorn', serif; general*/
+/*font-family: 'Bree Serif', serif; headings*/
+/*font-family: 'Patua One', cursive; headings*/
+/*font-family: 'Noto Serif', serif; navlinks*/
+body{
+	font-family: 'Bree Serif', serif;
+	background: #f3f8f9;
+}
+
+.blue-text {
+	color: #00ace0;
+}
+
+.background-button-link{
+	padding: 10px;
+	border: 2px solid #aac1c7;
+	color: #aac1c7;
+	transition: background 1s ease-in-out;
+}
+
+.background-button-link:hover{
+	background: #274d58;
+	text-decoration: none;
+	color: #aac1c7;
+}
+
+.genral-font-color{
+	color: #6f797b;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.heading-standout {
+	font-family: 'Patua One', cursive;
+}
+
+.links-general-slide-right{
+	color: #00ace0;
+	transition: all 1s ease-in-out;
+}
+
+.links-general-slide-right:hover {
+	color: #37555f;
+	transform: translateX(20px);
+}
+
+.blue-button{
+	padding: 10px;
+	color: white;
+	background: #00ace0;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 20px;
+}
+
+
+/*############### Header #################3*/
+
+#header-wrapper-div{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1584899473/black-flat-screen-computer-monitor-1714208_cfpj79.jpg) center/cover no-repeat fixed;
+	height: 100vh;
+}
+
+#header-row-div{
+	position: relative;
+}
+
+#header-photo-div{
+	box-shadow: 0px 10px 20px #00ace0;
+}
+
+.anime-move-up{
+	transition: transform 2s ease-in-out;
+}
+
+.anime-move-up:hover {
+	transform: rotate(20deg);
+}
+
+.phone-header-arrow{
+	position: absolute;
+	top:100%;
+	left: 50%;
+	color: #00ace0;
+	background: transparent;
+	border: 2px solid #00ace0;
+	border-radius: 50%;
+	font-size: 2em;
+}
+
+.header-arrow {
+	position: absolute;
+	left: 50%;
+	top: 430px;
+	color: #00ace0;
+	background: transparent;
+	border: 2px solid #00ace0;
+	border-radius: 50%;
+	font-size: 2em;
+}
+
+/*#################### Navbar #################3*/
+/* navigation bar */
+
+.navbar {
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: #274d58;
+}
+.navbar-brand img {
+	height: 3rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.nav-link {
+	color: #a9b4b7;
+	padding-top: .8rem;
+	font-weight: 700;
+	border-bottom: 2px solid transparent;
+	transition: all 1s ease-in-out;
+	font-family: 'Noto Serif', serif;
+}
+
+.nav-link:hover {
+	color: white;
+	transform: translateY(-10px);
+}
+
+/*############# Home page section #########*/
+.fa-eye{
+	font-size: 4em;
+	color: #274d58;
+}
+
+#shift-up-link{
+	position: relative;
+	bottom: 20px;
+	padding-left: 10px;
+}
+
+#home-page-service-1{
+	background: url(../images/photo-of-men-doing-fist-bump-3184302.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;	
+}
+
+#home-page-service-2{
+	background: url(../images/fashion-art-coffee-macbook-pro-57690.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;
+}
+
+#home-page-service-3{
+	background: url(../images/silver-imac-displaying-collage-photos-1779487.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;
+}
+
+#home-page-service-4{
+	background: url(../images/apple-devices-cellphone-close-up-electronics-341523.jpg)center/cover no-repeat;
+	border: 1px solid #274d58;
+	height: 20vh;
+}
+
+.home-page-service-content{
+	background: white;
+	transition: all 2s ease-in-out;
+}
+
+.home-page-service-content:hover{
+	opacity: 0.5;
+}
+
+#home-level-three{
+	background: linear-gradient(rgba(9,48,60,0.5), rgba(9,48,60,0.5)),url(../images/fashion-art-coffee-macbook-pro-57690.jpg)center/cover fixed no-repeat;
+}
+
+#quotes{
+	color: whitesmoke;
+	background: url(https://res.cloudinary.com/it-s-tech/image/upload/v1590288503/bavaria-munich-octoberfest-oktoberfest-9827_fgrawx.jpg) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.quotes-background {
+	background: rgba(9,48,60,0.5);
+}
+
+#quotes img{
+	width: 200px;
+	background: #a0cee2;
+}
+
+#quotes blockquote {
+	border-left: 0;
+	line-height: 2;
+	font-size: 2;
+	font-size: 19px;
+}
+
+#quotes blockquote footer{
+	color: #a9d0e0;
+	font-size: 16px;
+}
+
+#quotes .fa{
+	color: #a0cee2;
+	font-size: 40px;
+	margin: 0 10px;
+}
+
+#numbers{
+	padding: 40px;
+	background: linear-gradient(rgba(9,48,60,0.5), rgba(9,48,60,0.5)),url(../images/meter-at-0000-1364700.jpg)center/cover fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: whitesmoke;
+}
+
+#numbers .fa{
+	font-size: 40px;
+	color: #89d7ef;
+}
+
+/*#############About page###########*/
+#about-page-header{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593377850/Group-Itstech/top-view-photo-of-people-near-wooden-table-3183150_aij8bj.jpg) center/cover no-repeat fixed;
+	height: 70vh;
+}
+
+.promise-picture {
+	height: 80vh;
+	background: url(https://res.cloudinary.com/it-s-tech/image/upload/v1593380783/Group-Itstech/fashion-art-coffee-macbook-pro-57690_cbfqnr.jpg) center/cover no-repeat fixed;
+	border-top: 600px solid transparent;
+	border-right: 150px solid whitesmoke;
+}
+
+.promise-text {
+	height: 600px;
+	background: whitesmoke;
+	padding: 40px 20px;
+}
+
+.promise-icons {
+	font-size: 20px;
+	line-height: 1.2em;
+}
+
+#promise .fa{
+	color: #F15025;
+	font-size: 40px;
+}
+
+.about-page-quote{
+	font-size: 3em;
+	color: ;
+}
+
+.about-page-numbers{
+	padding: 0 20px;
+	font-size: 3em;
+	background: #00ace038;
+	color: #00ace0;
+	border-radius: 50%;
+
+}
+
+
+.about-page-domain-divs{
+	background: #eaf3f5;
+}
+
+/*##############3Services section#############3*/
+#services-page-header{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593502214/Group-Itstech/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355_uuopfr.jpg) center/cover no-repeat fixed;
+}
+
+/*###########3Clients section############*/
+#client-page-header{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1594687559/Group-Itstech/man-and-woman-near-table-3184465_rzmldr.jpg) center/cover no-repeat fixed;
+}
