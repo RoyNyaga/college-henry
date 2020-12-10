@@ -108,7 +108,7 @@ body{
 .navbar {
 	font-size: .9rem;
 	letter-spacing: .1rem;
-	background: #274d58;
+	background: white;
 }
 .navbar-brand img {
 	height: 3rem;
@@ -117,7 +117,7 @@ body{
 	padding-right: .7rem;
 }
 .nav-link {
-	color: #a9b4b7;
+	color: black;
 	padding-top: .8rem;
 	font-weight: 700;
 	border-bottom: 2px solid transparent;
@@ -230,8 +230,8 @@ body{
 
 /*#############About page###########*/
 #about-page-header{
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1593377850/Group-Itstech/top-view-photo-of-people-near-wooden-table-3183150_aij8bj.jpg) center/cover no-repeat fixed;
-	height: 70vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../images/header.jpg") center/cover no-repeat fixed;
+	height: 80vh;
 }
 
 .promise-picture {
