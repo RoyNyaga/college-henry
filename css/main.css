@@ -287,3 +287,16 @@ body{
 	height: 80vh;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(https://res.cloudinary.com/it-s-tech/image/upload/v1594687559/Group-Itstech/man-and-woman-near-table-3184465_rzmldr.jpg) center/cover no-repeat fixed;
 }
+
+/* Added work */
+.offer-number{
+  font-size: 3em;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.offer-writings{
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 10px;
+}
